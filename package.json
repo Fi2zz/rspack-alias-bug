@@ -1,0 +1,15 @@
+{
+	"name": "rspack-react-starter",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "rspack serve",
+		"build": "rspack build"
+	},
+	"dependencies": {
+		"moment": "^2.29.4"
+	},
+	"devDependencies": {
+		"@rspack/cli": "latest"
+	}
+}
