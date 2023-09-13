@@ -4,7 +4,8 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "rspack serve",
-		"build": "rspack build"
+		"build:case1": "rspack build  --config ./case-1.rspack.config.js",
+		"build:case2": "rspack build  --config ./case-2.rspack.config.js"
 	},
 	"dependencies": {
 		"moment": "^2.29.4"
